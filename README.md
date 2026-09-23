@@ -1,7 +1,7 @@
-# Chargez — EV Marketplace & Charging Platform
+# Chargze — EV Marketplace & Charging Platform
 
 <p align="center">
-  <img src="./assets/hero.png" alt="Chargez EV Platform" width="900"/>
+  <img src="./assets/hero.png" alt="Chargze EV Platform" width="900"/>
 </p>
 
 <p align="center">
@@ -20,12 +20,12 @@
   <a href="https://admin.chargze.com/">
     <img src="https://img.shields.io/badge/Live-Admin%20Dashboard-0969da?style=for-the-badge" alt="Live Admin Dashboard"/>
   </a>
-</p>
+</p>f
 ---
 
 ## Overview
 
-Chargez is an EV-focused platform consisting of a cross-platform mobile application,
+Chargze is an EV-focused platform consisting of a cross-platform mobile application,
 web-based admin dashboard, and backend services.
 
 The platform provides users with an interface for discovering EV products,
@@ -48,7 +48,7 @@ data and operations.
 
 # Mobile Application
 
-The Chargez mobile application is built using React Native and TypeScript.
+The Chargze mobile application is built using React Native and TypeScript.
 
 ### Key Areas
 
@@ -62,24 +62,24 @@ The Chargez mobile application is built using React Native and TypeScript.
 - API-driven application architecture
 
 <p align="center">
-  <img src="./assets/mobile-home.png" alt="Chargez Home Screen" width="210"/>
+  <img src="./assets/mobile-home.jpeg" alt="Chargze Home Screen" width="210"/>
   &nbsp;&nbsp;
-  <img src="./assets/mobile-products.png" alt="Chargez Products Screen" width="210"/>
+  <img src="./assets/nearby-charging-stations.jpeg" alt="Nearby Charging stations" width="210"/>
   &nbsp;&nbsp;
-  <img src="./assets/mobile-product-details.png" alt="Chargez Product Details" width="210"/>
+  <img src="./assets/product_list.png" alt="Chargze Product Details" width="210"/>
   &nbsp;&nbsp;
-  <img src="./assets/mobile-profile.png" alt="Chargez Profile Screen" width="210"/>
+  <img src="./assets/profile.jpeg" alt="Customer Profile Screen" width="210"/>
 </p>
 
 ---
 
 # Admin Dashboard
 
-Chargez also includes a web-based administration dashboard for managing
+Chargze also includes a web-based administration dashboard for managing
 platform data and operations.
 
 <p align="center">
-  <img src="./assets/admin-dashboard.png" alt="Chargez Admin Dashboard" width="900"/>
+  <img src="./assets/admin-dashboard-dark.png" alt="Chargze Admin Dashboard" width="900"/>
 </p>
 
 <p align="center">
@@ -94,19 +94,19 @@ platform data and operations.
 
 # System Architecture
 
-The Chargez platform is composed of a mobile application, administrative
+The Chargze platform is composed of a mobile application, administrative
 dashboard, GraphQL API layer, backend services, database, caching layer,
 and payment integration.
 
 <p align="center">
-  <img src="./assets/architecture.svg" alt="Chargez System Architecture" width="900"/>
+  <img src="./assets/architecture.svg" alt="Chargze System Architecture" width="900"/>
 </p>
 
 ### Request Flow
 
 
 ```text
-                         CHARGEZ PLATFORM
+                         Chargze PLATFORM
                                 │
                ┌────────────────┴────────────────┐
                │                                 │
@@ -198,13 +198,13 @@ administrative operations.
 
 ## Download
 
-Try the Chargez Android application.
+Try the Chargze Android application.
 
 <p align="center">
   <a href="../../releases/latest">
     <img
-      src="https://img.shields.io/badge/Download%20Latest%20APK-Chargez-v1.0.0?style=for-the-badge&logo=android&logoColor=white"
-      alt="Download Latest Chargez APK"
+      src="https://img.shields.io/badge/Download%20Latest%20APK-Chargze-v1.0.0?style=for-the-badge&logo=android&logoColor=white"
+      alt="Download Latest Chargze APK"
     />
   </a>
 </p>
@@ -234,7 +234,7 @@ Try the Chargez Android application.
 
 About This Repository
 
-This repository is a project showcase for the Chargez platform.
+This repository is a project showcase for the Chargze platform.
 
 It contains:
 
@@ -244,7 +244,7 @@ System architecture
 Technology overview
 Android showcase builds
 
-The proprietary source code of the Chargez platform is maintained in a
+The proprietary source code of the Chargze platform is maintained in a
 private repository.
 
 
