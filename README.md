@@ -20,8 +20,8 @@
   <a href="https://admin.chargze.com/">
     <img src="https://img.shields.io/badge/Live-Admin%20Dashboard-0969da?style=for-the-badge" alt="Live Admin Dashboard"/>
   </a>
-</p>f
----
+</p>
+
 
 ## Overview
 
@@ -66,7 +66,7 @@ The Chargze mobile application is built using React Native and TypeScript.
   &nbsp;&nbsp;
   <img src="./assets/nearby-charging-stations.jpeg" alt="Nearby Charging stations" width="210"/>
   &nbsp;&nbsp;
-  <img src="./assets/product_list.png" alt="Chargze Product Details" width="210"/>
+  <img src="./assets/razorpay.jpeg" alt="Razorpay page" width="210"/>
   &nbsp;&nbsp;
   <img src="./assets/profile.jpeg" alt="Customer Profile Screen" width="210"/>
 </p>
