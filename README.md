@@ -13,15 +13,14 @@
 </p>
 
 <p align="center">
-
-  [Download APK](#download)
-
-  ·
-
-  [Live Admin Dashboard](https://admin.chargze.com/)
-
+  <a href="./releases/latest">
+    <img src="https://img.shields.io/badge/Download-APK-2ea44f?style=for-the-badge&logo=android&logoColor=white" alt="Download APK"/>
+  </a>
+  &nbsp;
+  <a href="https://admin.chargze.com/">
+    <img src="https://img.shields.io/badge/Live-Admin%20Dashboard-0969da?style=for-the-badge" alt="Live Admin Dashboard"/>
+  </a>
 </p>
-
 ---
 
 ## Overview
@@ -29,9 +28,12 @@
 Chargez is an EV-focused platform consisting of a cross-platform mobile application,
 web-based admin dashboard, and backend services.
 
-The platform is designed to provide users with an interface for discovering EV
-products and managing their account, while administrators can manage platform
-data through the web dashboard.
+The platform provides users with an interface for discovering EV products,
+viewing product information, managing their account, and completing
+payment-related workflows.
+
+The administrative dashboard provides an interface for managing platform
+data and operations.
 
 ### Platform Components
 
@@ -40,6 +42,7 @@ data through the web dashboard.
 - GraphQL backend services
 - PostgreSQL database
 - Razorpay payment integration
+- Google Maps and navigation
 
 ---
 
@@ -55,13 +58,17 @@ The Chargez mobile application is built using React Native and TypeScript.
 - Product details
 - User profile
 - Payment integration
+- Google Maps and navigation
 - API-driven application architecture
 
 <p align="center">
-  <img src="./assets/mobile-home.png" width="220"/>
-  <img src="./assets/mobile-products.png" width="220"/>
-  <img src="./assets/mobile-product-details.png" width="220"/>
-  <img src="./assets/mobile-profile.png" width="220"/>
+  <img src="./assets/mobile-home.png" alt="Chargez Home Screen" width="210"/>
+  &nbsp;&nbsp;
+  <img src="./assets/mobile-products.png" alt="Chargez Products Screen" width="210"/>
+  &nbsp;&nbsp;
+  <img src="./assets/mobile-product-details.png" alt="Chargez Product Details" width="210"/>
+  &nbsp;&nbsp;
+  <img src="./assets/mobile-profile.png" alt="Chargez Profile Screen" width="210"/>
 </p>
 
 ---
@@ -72,17 +79,31 @@ Chargez also includes a web-based administration dashboard for managing
 platform data and operations.
 
 <p align="center">
-  <img src="./assets/admin-dashboard.png" width="900"/>
+  <img src="./assets/admin-dashboard.png" alt="Chargez Admin Dashboard" width="900"/>
 </p>
 
-🔗 **Live Admin Dashboard:**  
-https://admin.chargze.com/
+<p align="center">
+  <a href="https://admin.chargze.com/">
+    <strong>Open Live Admin Dashboard</strong>
+  </a>
+</p>
 
 > Access to the dashboard may require authentication.
 
 ---
 
 # System Architecture
+
+The Chargez platform is composed of a mobile application, administrative
+dashboard, GraphQL API layer, backend services, database, caching layer,
+and payment integration.
+
+<p align="center">
+  <img src="./assets/architecture.svg" alt="Chargez System Architecture" width="900"/>
+</p>
+
+### Request Flow
+
 
 ```text
                          CHARGEZ PLATFORM
@@ -130,35 +151,44 @@ Node.js Backend
 
 ## Technical Implementation
 
-| Layer           | Technology    |
-| --------------- | ------------- |
-| Mobile          | React Native  |
-| Language        | TypeScript    |
-| API             | GraphQL       |
-| Backend         | Node.js       |
-| Database        | PostgreSQL    |
-| Cache           | Redis         |
-| Payments        | Razorpay      |
-| Admin           | Web Dashboard |
-| Version Control | Git / GitHub  |
+| Layer             | Technology            |
+| ----------------- | --------------------- |
+| Mobile            | React Native          |
+| Language          | TypeScript            |
+| API               | GraphQL               |
+| Backend           | Node.js               |
+| Database          | PostgreSQL            |
+| Cache             | Redis                 |
+| Payments          | Razorpay              |
+| Maps & Navigation | Google Maps Platform  |
+| Cloud             | Google Cloud Platform |
+| Admin             | Web Dashboard         |
+| Version Control   | Git / GitHub          |
+
 
 
 # Engineering Highlights
 
 GraphQL API
 
-The mobile application communicates with the backend through GraphQL APIs,
-allowing the client to request the data required by individual screens.
+The mobile application communicates with backend services through GraphQL,
+allowing individual screens to request the data required by their respective
+workflows.
 
 Authentication
 
-The application implements authenticated API communication between the
-mobile client and backend services.
+The application implements authenticated communication between the mobile
+client and backend services.
 
 Payment Integration
 
-Razorpay is integrated to handle payment-related workflows within the
+Razorpay is integrated to support payment-related workflows within the
 platform.
+
+Maps & Navigation
+
+Google Maps Platform is used to provide map-based functionality and
+navigation within the application.
 
 Admin Operations
 
@@ -166,41 +196,59 @@ The web dashboard provides an interface for managing platform data and
 administrative operations.
 
 
-# Download
+## Download
 
-Android APK
+Try the Chargez Android application.
 
-You can download the latest Android build from GitHub Releases.
+<p align="center">
+  <a href="../../releases/latest">
+    <img
+      src="https://img.shields.io/badge/Download%20Latest%20APK-Chargez-v1.0.0?style=for-the-badge&logo=android&logoColor=white"
+      alt="Download Latest Chargez APK"
+    />
+  </a>
+</p>
 
-Latest Release
+<p align="center">
+  <strong>Latest Release: v1.0.0</strong>
+</p>
 
-Chargez-v1.0.0.apk
+<p align="center">
+  <a href="../../releases/latest">
+    View Release & Download APK →
+  </a>
+</p>
 
-Download Latest APK
-
-Installation
-Download the APK on an Android device.
-Open the downloaded APK.
-Allow installation from the requested source if Android prompts you.
-Install the application.
-
-This APK is provided for demonstration purposes.
+> The APK is provided for demonstration and portfolio purposes.
 
 
 # Project Links
 
-| Resource         | Link                                                     |
-| ---------------- | -------------------------------------------------------- |
-| Admin Dashboard  | [https://admin.chargze.com/](https://admin.chargze.com/) |
-| Android APK      | GitHub Releases                                          |
-| Project Showcase | GitHub                                                   |
-| Source Code      | Private                                                  |
+| Resource               | Link                                                                 |
+| ---------------------- | -------------------------------------------------------------------- |
+| Android APK         | [Download Latest Release](./releases/latest)                         |
+| Admin Dashboard    | [Open Dashboard](https://admin.chargze.com/)                         |
+| Showcase Repository | [GitHub](https://github.com/ashutosh-rootandleaves/Chargze-Showcase) |
+| Source Code         | Private                                                              |
+
+
+About This Repository
+
+This repository is a project showcase for the Chargez platform.
+
+It contains:
+
+Project documentation
+Application screenshots
+System architecture
+Technology overview
+Android showcase builds
+
+The proprietary source code of the Chargez platform is maintained in a
+private repository.
 
 
 # Disclaimer
-
-This repository is a project showcase and does not contain the proprietary
-source code of the Chargez platform.
 
 The screenshots, application builds, branding, and architecture information
 are provided for demonstration and portfolio purposes.
